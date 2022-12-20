@@ -4,53 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/styles.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
     <title>Bookie</title>
 </head>
 <body>
 
     <!-- Logo & Nav -->
-    <header>
-        <img src="images/logo/Booki.png" alt="--">
-        <nav class="nav">
-            <ul>
-                <li>Hébergement</li>
-                <li>Activités</li>
+    <header class="nav">
+        <div class="logo">
+        <img src="images/logo/Booki.png" alt="Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a>Hébergement</a></li>
+                <li><a>Activités</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- SearchBox -->
     <div class="search">
-        <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
-        <p>En plein centre-ville ou en pleine nature</p>
-        <form class="search-box">
+        <h3 class="titre">Trouvez votre hébergement pour des vacances de rêve</h3>
+        <p class="sous-titre">En plein centre-ville ou en pleine nature</p>
+        <div class="search-box">
             <i class="fa-solid fa-location-dot"></i>
             <input type="text" name="text" class="searchBox" placeholder="Marseille, France">
             <button class="btn-search">Rechercher</button>
-        </form>
+        </div>
     </div>
 
     <!-- Filtres -->
-    <div class="filter">
-        <div class="economique">
+    <div class="filters">
+        <h3>Filtres</h3>
+        <div class="economique filter">
             <i class="fa-solid fa-money-bill-wave"></i>
             <p>économique</p>
         </div>
-        <div class="Famille">
+        <div class="Famille filter">
             <i class="fa-solid fa-person"></i>
             <p>Famille</p>
         </div>
-        <div class="Romantique">
+        <div class="Romantique filter">
             <i class="fa-sharp fa-solid fa-heart"></i>
             <p>Romantique</p>
         </div>
-        <div class="Annimaux autorisé">
+        <div class="Annimaux autorisé filter">
             <i class="fa-solid fa-dog"></i>
             <p>Annimaux autorisé</p>
         </div>
     </div>
-
+    <div class="info">
+        <i class="fa-solid fa-info">   
+        </i>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+    </div>
     
 </body>
 </html>
