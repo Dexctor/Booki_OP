@@ -1,5 +1,7 @@
+@import url("header_nav.css");
 :root{
 	--blue:#0065FC;
+	--shadow:#0000002e;
 }
 
 * {
