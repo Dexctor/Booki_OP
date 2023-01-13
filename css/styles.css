@@ -5,11 +5,12 @@
 }
 
 * {
-	margin: auto;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Raleway';
-	max-width: 1400px ;
 }
 
-
+body{
+	max-width: 1400px;
+}
