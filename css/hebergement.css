@@ -1,8 +1,8 @@
 /* Section Hebergement*/
 .section_content{
 	display: flex;
-	justify-content: space-between;
-	padding: 1rem;
+	padding: 10px;
+	gap: 40px;
 }
 .titre_section_h3{
 	
@@ -15,13 +15,13 @@ padding: 20px;
 #section_1_hebergement{
 	display: flex;
 	flex-direction: column;
-	gap: 25px;
+	gap: 20px;
 	padding: 20px;
 }
 
 .section_1_part1{
-	width: 60%;
 
+	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	border-radius: 25px;
@@ -29,6 +29,8 @@ padding: 20px;
 }
 
 .hebergement_section1{
+	display: flex;
+	flex-direction: column;
 	background-color: rgb(255, 255, 255);
 	padding: 5px;
 	width: 33%;
@@ -56,7 +58,7 @@ padding: 20px;
 
 .section1_text{
 	
-	padding-left: 13px;
+	padding: 10px;
 	color: black;
 }
 
@@ -87,7 +89,7 @@ padding: 20px;
 }
 .ligne{
 	display: flex;
-	gap: 5%;
+	gap:30px;
 }
 
 
