@@ -38,7 +38,9 @@ input{
 input:focus{
 	outline:  none;
 }
-
+.filter_wrap{
+	display: flex;
+}
 .btn-search{
     padding: 1rem;
     color: white;

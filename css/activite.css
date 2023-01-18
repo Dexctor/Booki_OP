@@ -1,27 +1,21 @@
 /*Activité*/
 
-.section_activite{
-	
-}
 .titre_activite{
 	margin: 2rem 0 2rem 2rem;
 }
 
 .container_activite{
-	display: flex;
-	justify-content: space-between;
-	margin-left: 2rem;
-	margin-right: 2rem;
+display: flex;
+justify-content:space-between;
+padding: 30px;
 }
 .card_activite{
-	height: 23rem;
-    width: 17rem;
-    object-fit: cover;	
+	display: flex;
+	flex-direction: column;
 }
 .card_activite>img{
-	margin-bottom: -0.5rem;
 	object-fit: cover;
-	height: 23rem;
+	height: 350px;
     width: 17rem;
 	border-radius: 20px 20px 0 0;
 }

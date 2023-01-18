@@ -1,9 +1,7 @@
 footer{
 	background-color: #F2F2F2;
 	padding: 2rem;
-	margin-top: 8rem;
-	margin-right: 2rem;
-	margin-left: 2rem;
+	margin-top: 2rem;
 }
 .list_container{
   display: flex;
