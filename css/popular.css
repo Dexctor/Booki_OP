@@ -60,12 +60,16 @@ color: var(--blue);
 	display: flex;
 }
 @media screen and (max-width:768px) {
-	.section_content{
+	/*section populaire*/
+	body{
+		max-width: 1024px;;
+	}
+	.section_hebergement__populaire{
 		display: flex;
 		flex-direction: column;
 	}
-	.container_popular{
-
+	.section_hebergement{
+		width: 100%;
 	}
 	.wide_card>img {
 		height: 163px;
@@ -75,5 +79,11 @@ color: var(--blue);
 
 	.wide_card_container{
 		flex-direction: unset;
+	}
+	.card_activite>img {
+		object-fit: cover;
+		height: 215px;
+		width: 100%;
+		border-radius: 20px 20px 0 0;
 	}
 }
