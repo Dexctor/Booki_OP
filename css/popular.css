@@ -2,18 +2,15 @@
 
 .section_popular{
 display: flex;
+justify-content: space-between;
+flex-direction: column;
 width: 40%;
-	
+padding: 20px;
+border-radius: 20px;
+background-color: #F2F2F2;
 }
 
-.container_popular{
-	justify-content: space-between;
-    flex-direction: column;
-    display: flex;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #F2F2F2;
-}
+
 
 .tilte_icon{
 	display: flex;
@@ -59,33 +56,4 @@ color: var(--blue);
 }
 .stars_popular{
 	display: flex;
-}
-@media screen and (max-width:768px) {
-	/*section populaire*/
-	body{
-		max-width: 1024px;
-		margin: auto;
-	}
-	.section_hebergement__populaire{
-		display: flex;
-		flex-direction: column;
-	}
-	.section_hebergement{
-		width: 100%;
-	}
-	.wide_card>img {
-		height: 163px;
-		object-fit: cover;
-		border-radius: 20px 0px 0 20px;
-	}
-
-	.wide_card_container{
-		flex-direction: unset;
-	}
-	.card_activite>img {
-		object-fit: cover;
-		height: 215px;
-		width: 100%;
-		border-radius: 20px 20px 0 0;
-	}
 }

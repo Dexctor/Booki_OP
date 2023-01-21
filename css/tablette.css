@@ -1,0 +1,64 @@
+/* Media Query Tablette 992px */
+
+
+/* -- Section Populaire & Hebergement -- */
+
+@media screen and (max-width:992px) {
+	
+	body{
+        max-width: 992px;
+		margin: auto;
+	}
+	.section_hebergement__populaire{
+		display: flex;
+		flex-direction: column;
+	}
+	.section_hebergement{
+		width: 100%;
+	}
+    .section_popular{
+        width: 100%;
+    }
+	.wide_card>img {
+		height: 163px;
+		object-fit: cover;
+		border-radius: 20px 0px 0 20px;
+	}
+
+	.wide_card_container{
+		flex-direction: unset;
+	}
+	.card_activite>img {
+		object-fit: cover;
+		height: 215px;
+		width: 100%;
+		border-radius: 20px 20px 0 0;
+	}
+
+    .card_activite>img {
+		object-fit: cover;
+		height: 230px;
+		width: 100%;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.text_activite>h3{
+		font-size: 1em;
+	}
+	.container_activite{
+		display: flex;
+		justify-content:space-between;
+		padding: 15px;
+		gap: 30px;
+		}
+		.titre_activite{
+			margin: 2rem 0 2rem 1rem;
+		}
+		.text_activite {
+			box-shadow: 1px 2px 20px 2px var(--shadow);
+			border-radius: 0px 0px 20px 20px;
+			font-weight: bold;
+			padding: 10px;
+		}
+
+}
