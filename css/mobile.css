@@ -1,5 +1,6 @@
 @media screen and (max-width:768px) {
     body{
+        max-width: 768px;
         margin: auto;
     }
 	header{
@@ -9,6 +10,12 @@
     .logo{
         display: flex;
         justify-content: center;
+    }
+
+    nav {
+        justify-content: center;
+        width: 100%;
+        display: flex;
     }
     .nav-links li a{
         font-weight: 600;
