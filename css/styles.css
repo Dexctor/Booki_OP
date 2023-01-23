@@ -1,7 +1,8 @@
 @import url("header_nav.css");
-:root{
-	--blue:#0065FC;
-	--shadow:#0000002e;
+
+:root {
+	--blue: #0065FC;
+	--shadow: #0000002e;
 }
 
 * {
@@ -11,9 +12,8 @@
 	font-family: 'Raleway';
 }
 
-body{
+body {
 	max-width: 1400px;
-	margin: auto;;
+	margin: auto;
+	;
 }
-
-

@@ -1,5 +1,5 @@
 /*Header & Navigation*/
-a{
+a {
 	text-decoration: none;
 }
 
@@ -9,26 +9,29 @@ header {
 	align-items: center;
 	margin-bottom: 1rem;
 }
+
 .nav-links {
-	display: flex;	
+	display: flex;
 }
 
 .nav-links li a {
 	border-top: 1px solid rgb(255, 255, 255);
 	padding: 2rem;
 
-  }
-  .nav-links li :hover {
+}
+
+.nav-links li :hover {
 	border-top: 1px solid #0065FC;
-  }
+}
 
 .nav-links li {
 	display: flex;
 	color: var(--blue);
 	border-top: 2px 2px 2px 2px solid white;
-    list-style: none;
+	list-style: none;
 	text-decoration: none;
 }
+
 .logo>img {
 	padding: 1rem;
 	width: 50%;
