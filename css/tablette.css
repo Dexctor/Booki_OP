@@ -8,9 +8,8 @@
 	/* ---Hébérgements--- */
 
 	body {
-		max-width: 992px;
+		max-width: 960px;
 		margin: auto;
-		padding: auto;
 	}
 	.text_card_hebergement h3 {
 		font-size: 15px;
@@ -36,7 +35,7 @@
 	}
 
 	.wide_card>img {
-		height: 140px;
+		height: 100%;
 		object-fit: cover;
 		border-radius: 20px 0px 0 20px;
 	}
@@ -48,7 +47,7 @@
 	.wide_card_container {
 		flex-direction: unset;
 		gap: 20px;
-		padding: 20px;
+		padding: 15px;
 	}
 
 	/* ---Activitées--- */

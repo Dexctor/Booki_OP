@@ -1,7 +1,9 @@
 @media screen and (max-width:768px) {
    *{
-        margin: auto;
+    max-width: 768px;
     }
+
+    /* Header*/
 	header{
         flex-direction: column;
         display: flex;
@@ -19,5 +21,44 @@
     }
     .nav-links li a{
         font-weight: 600;
+    }
+    .filters{
+        align-items: flex-start;
+    }
+    .filter_wrap {
+        display: grid;
+        grid-gap: 20px;
+    }
+
+    .section_hebergement__populaire {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ligne_card_hebergement {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .section_hebergement {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px;
+        background: #ffffff;
+    }
+    .afficher-plus{
+        display: none;;
+    }
+
+    .wide_card_container {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .wide_card>img {
+        height: 150px;
+        object-fit: cover;
+        border-radius: 20px 0px 0 20px;
     }
 }
