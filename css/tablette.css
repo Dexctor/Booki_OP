@@ -1,16 +1,25 @@
 /* Media Query Tablette 992px */
 
 
-/* -- Section Populaire & Hebergement -- */
+/* -- Section Populaire & Hebergement & activité -- */
 
 @media screen and (max-width:992px) {
+
+	/* ---Hébérgements--- */
 
 	body {
 		max-width: 992px;
 		margin: auto;
 		padding: auto;
 	}
-
+	.text_card_hebergement h3 {
+		font-size: 15px;
+		line-height: 12px;
+	}
+	.hebergement_card p {
+		color: black;
+		font-size: 13px;
+	}
 	.section_hebergement__populaire {
 		display: flex;
 		flex-direction: column;
@@ -19,6 +28,8 @@
 	.section_hebergement {
 		width: 100%;
 	}
+
+	/* ---Populaire--- */
 
 	.section_popular {
 		width: 100%;
@@ -40,6 +51,7 @@
 		padding: 20px;
 	}
 
+	/* ---Activitées--- */
 	.card_activite>img {
 		object-fit: cover;
 		height: 215px;

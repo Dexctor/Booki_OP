@@ -22,7 +22,7 @@
 }
 
 .section_hebergement {
-	width: 60%;
+	width: 65%;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -49,11 +49,12 @@
 
 #container_card_hebergement a {
 	width: 100%;
+	display: flex;
 }
 
 .hebergement_card p {
 	color: black;
-	font-size: 11px;
+	font-size: 15px;
 }
 
 .hebergement_titre_h3 {
@@ -61,9 +62,10 @@
 }
 
 .text_card_hebergement {
-
+	display: flex;
 	padding: 10px;
 	color: black;
+	flex-direction: column;
 }
 
 .text_card_hebergement h3 {
@@ -96,6 +98,7 @@
 .ligne_card_hebergement {
 	display: flex;
 	gap: 20px;
+	width: 100%;
 }
 
 
