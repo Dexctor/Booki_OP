@@ -7,9 +7,7 @@
 }
 
 .titre_section_hebergement {
-
 	padding: 10px;
-	font-weight: bold;
 	font-size: 25px;
 }
 
@@ -56,11 +54,6 @@
 	color: black;
 	font-size: 15px;
 }
-
-.hebergement_titre_h3 {
-	color: black;
-}
-
 .text_card_hebergement {
 	display: flex;
 	padding: 10px;
@@ -69,13 +62,13 @@
 }
 
 .text_card_hebergement h3 {
-	font-size: 1rem;
+	font-size:1em;
 	line-height: 21px;
 }
 
 .stars {
 	margin-top: 9px;
-	font-size: small;
+	font-size: 1em;
 }
 
 .price {

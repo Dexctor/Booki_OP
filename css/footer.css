@@ -16,3 +16,6 @@ footer{
 .list>nav>h3{
 	margin-bottom: 1rem;
 }
+ol>li>a{
+  color: black;
+}

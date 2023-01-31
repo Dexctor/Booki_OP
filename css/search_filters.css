@@ -8,7 +8,7 @@
 	display: inline-flex;
 }
 
-.search-box i {
+.search-box>i  {
 	padding: 1.2rem;
 	background-color: #F2F2F2;
 	border-radius: 20px 0px 0px 20px;

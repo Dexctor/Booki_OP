@@ -17,6 +17,7 @@ header {
 .nav-links li a {
 	border-top: 3px solid rgb(255, 255, 255);
 	padding: 2rem;
+	color: #0065FC;
 
 }
 

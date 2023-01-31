@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.5">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+		
 		<link href="css/styles.css" rel="stylesheet">
 		<link href="css/search_filters.css" rel="stylesheet">
 		<link href="css/hebergement.css" rel="stylesheet">
@@ -24,8 +25,8 @@
 			</div>
 			<nav>
 				<ul class="nav-links">
-					<li><a>Hébergement</a></li>
-					<li><a>Activités</a></li>
+					<li><a href="#Hebergements">Hébergement</a></li>
+					<li><a href="#Activité">Activités</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -39,12 +40,14 @@
 				<form class="search-box">
 					<i class="fa-solid fa-location-dot"></i>
 					<input type="text" name="text" class="searchBox" placeholder="Marseille, France">
-					<button class="btn-search">Rechercher <i class="fa-solid fa-magnifying-glass"></i></button>
+					<button class="btn-search"><p>Rechercher</p> <i class="fa-solid fa-magnifying-glass icon-search"></i></button>
 				</form>
 			</div>
 			<!-- Filtres -->
 			<div class="filters">
+				<div class="title_filters">
 				<h3>Filtres</h3>
+			</div>
 				<div class="filter_wrap">
 					<div class=" filter">
 						<i class="fa-solid fa-money-bill-wave"></i>
@@ -83,7 +86,7 @@
 		
 		<!--Hebergement-->
 		<section class="section_hebergement__populaire">
-			<div class="section_hebergement">
+			<div class="section_hebergement" id="Hebergements">
 				<h3 class="titre_section_hebergement">Hébergement à Marseille</h3>
 				<div id="container_card_hebergement">
 					<!--Premier ligne de card -->
@@ -288,35 +291,43 @@
 						</section>
 				</section>
 		<!--Activités-->
-		<section class="section_activite">
+		<section class="section_activite" id="Activité">
 			<div class="titre_activite">
 				<h3>Activités à Marseille</h3>
 			</div>
-			<div class="container_activite">
+			<div class="container_activite">	
+				<a href="#">
 				<article class="card_activite">
 					<img src="images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="image">
 					<div class="text_activite">
 						<h3>Vieux port</h3>
 					</div>
 				</article>
+			</a>
+			<a href="">
 				<article class="card_activite">
 					<img src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="image">
 					<div class="text_activite">
 						<h3>Fort de pomègues</h3>
 					</div>
 				</article>
+			</a>
+			<a href="">
 				<article class="card_activite">
 					<img src="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="image">
 					<div class="text_activite">
 						<h3>Parc national des calanques</h3>
 					</div>
 				</article>
+			</a>
+			<a href="">
 				<article class="card_activite">
 					<img src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="image">
 					<div class="text_activite">
 						<h3>Notre-Dame-de-la-Garde</h3>
 					</div>
 				</article>
+			</a>
 			</div>
 		</section>
 	
