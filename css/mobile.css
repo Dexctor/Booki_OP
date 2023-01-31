@@ -51,7 +51,15 @@
         display: block;
     }
 	.filters {
-		align-items: flex-start;
+		display: unset;
+		margin-bottom: 1rem;
+	}
+	.title_filters{
+		margin-left: 1rem;
+		margin-bottom: 1rem;
+	}
+	.container_filters{
+		display: flex;
 	}
 
 	.filter_wrap {
@@ -60,6 +68,9 @@
 		gap: 20px;
 	}
 
+	.info{
+		margin-top: 1rem;
+	}
 	.section_hebergement__populaire {
 		display: flex;
 		flex-direction: column-reverse;
