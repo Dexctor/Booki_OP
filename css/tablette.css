@@ -56,6 +56,7 @@
 	}
 
 	/* ---Activitées--- */
+	
 	.card_activite>img {
 		object-fit: cover;
 		height: 215px;

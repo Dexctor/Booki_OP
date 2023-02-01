@@ -4,6 +4,7 @@
 	}
 
 	/* Header*/
+	
 	header {
 		flex-direction: column;
 		display: flex;
@@ -19,6 +20,8 @@
 		width: 100%;
 		display: flex;
 	}
+
+	/* Navigation*/
 
 	.nav-links {
 		display: flex;
@@ -44,12 +47,17 @@
 		border-bottom: 3px solid #0065FC;
 	}
 
+	/* Searchbox */
+
     .btn-search>p{
         display: none;
     }
     .fa-magnifying-glass{
         display: block;
     }
+
+	/* Filters */
+
 	.filters {
 		display: unset;
 		margin-bottom: 1rem;
@@ -71,6 +79,9 @@
 	.info{
 		margin-top: 1rem;
 	}
+
+	/* Section Hebergements */
+
 	.section_hebergement__populaire {
 		display: flex;
 		flex-direction: column-reverse;
@@ -101,8 +112,10 @@
 	}
 	.afficher-plus {
 		display: none;
-		;
+		
 	}
+
+	/* Section Popular */
 
 	.wide_card_container {
 		flex-direction: column;
@@ -113,6 +126,8 @@
 		object-fit: cover;
 		border-radius: 20px 0px 0 20px;
 	}
+
+	/* Section Activite */
 
 	.container_activite {
 		display: flex;
@@ -128,6 +143,8 @@
 		font-size: 1rem;
 		padding: 15px;
 	}
+
+	/* Section Footer */
 
 	.list_container {
 		display: flex;
