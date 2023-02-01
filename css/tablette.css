@@ -36,6 +36,7 @@
 
 	.wide_card>img {
 		height: 100%;
+		width: 40%;
 		object-fit: cover;
 		border-radius: 20px 0px 0 20px;
 	}
@@ -43,11 +44,15 @@
 	.wide_card {
 		width: 100%;
 	}
+	.text_card_popular{
+		padding: 10px;
+		width: 100%;
+	}
 
 	.wide_card_container {
 		flex-direction: unset;
 		gap: 20px;
-		padding: 15px;
+
 	}
 
 	/* ---Activitées--- */
