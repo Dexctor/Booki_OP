@@ -1,7 +1,7 @@
 /* Media Query Tablette 992px */
 
 
-/* -- Section Populaire & Hebergement & activité -- */
+/* -- Section Populaire_Hebergement & activité -- */
 
 @media screen and (max-width:992px) {
 
@@ -56,7 +56,7 @@
 	}
 
 	/* ---Activitées--- */
-	
+
 	.card_activite>img {
 		object-fit: cover;
 		height: 215px;
