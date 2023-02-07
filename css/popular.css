@@ -34,6 +34,7 @@
 }
 
 .wide_card {
+	height: 50%;
 	display: flex;
 	background-color: #fff;
 	padding: 5px;

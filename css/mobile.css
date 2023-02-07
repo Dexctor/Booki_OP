@@ -33,7 +33,7 @@
 	.nav-links li a {
 		font-weight: 600;
 		width: 100%;
-		border-bottom: 3px solid rgb(255, 255, 255);
+		border-bottom: 3px solid #F2F2F2;
 	}
 
 	.nav-links li {
@@ -49,12 +49,19 @@
 
 	/* Searchbox */
 
+	.search-box{
+		display: flex;
+		margin-right: 1rem;
+	}
     .btn-search>p{
         display: none;
     }
     .fa-magnifying-glass{
         display: block;
     }
+	input{
+		width: 100%;
+	}
 
 	/* Filters */
 
@@ -68,12 +75,15 @@
 	}
 	.container_filters{
 		display: flex;
+		margin-right: 1rem;
 	}
 
 	.filter_wrap {
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
+		width: 50%;
+		margin-right: 1rem;
 	}
 
 	.info{
@@ -112,7 +122,6 @@
 	}
 	.afficher-plus {
 		display: none;
-		
 	}
 
 	/* Section Popular */
@@ -136,7 +145,6 @@
 	}
 
 	.card_activite>img {
-
 		height: 200px;
 	}
 	.text_activite{
