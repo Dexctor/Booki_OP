@@ -14,7 +14,7 @@
 #container_card_hebergement {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 40px;
 	padding: 5px;
 }
 
@@ -89,7 +89,7 @@
 
 .ligne_card_hebergement {
 	display: flex;
-	gap: 20px;
+	gap: 40px;
 	width: 100%;
 }
 

@@ -2,7 +2,6 @@
 
 .section_popular {
 	display: flex;
-	justify-content: space-between;
 	flex-direction: column;
 	width: 35%;
 	padding: 20px;
@@ -15,7 +14,7 @@
 	display: flex;
 	justify-content: space-between;
 	font-size: 20px;
-	padding: 20px;
+	padding: 10px;
 }
 
 
@@ -30,7 +29,8 @@
 .wide_card_container {
 	display: flex;
 	flex-direction: column;
-	gap: 50px;
+	gap: 40px;
+	padding: 20px;
 }
 
 .wide_card {
