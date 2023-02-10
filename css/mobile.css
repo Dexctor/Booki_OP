@@ -53,7 +53,7 @@
 		display: flex;
 		margin-right: 1rem;
 	}
-    .btn-search>p{
+    .btn-search>span{
         display: none;
     }
     .fa-magnifying-glass{
@@ -87,7 +87,9 @@
 	}
 
 	.info{
-		margin-top: 1rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		margin-right:1rem;
 	}
 
 	/* Section Hebergements */
@@ -102,6 +104,9 @@
 	.section_popular {
 		border-radius: 0%;
 	}
+	#container_card_hebergement{
+		gap: 20px;
+	}
 
 	.ligne_card_hebergement {
 		display: flex;
@@ -111,7 +116,8 @@
 	}
 
 	.section_hebergement {
-		padding: 20px;
+	
+		margin-right: 1rem;
 		display: flex;
 		flex-direction: column;
 		border-radius: 25px;
@@ -135,9 +141,12 @@
 		object-fit: cover;
 		border-radius: 20px 0px 0 20px;
 	}
-
+	
 	/* Section Activite */
-
+	.section_activite{
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
 	.container_activite {
 		display: flex;
 		flex-direction: column;

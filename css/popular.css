@@ -15,10 +15,12 @@
 	justify-content: space-between;
 	font-size: 20px;
 	padding: 10px;
+	margin-left: 1rem;
 }
 
 
 /*Card populaire*/
+
 .wide_card>img {
 	width: 35%;
 	height: 150px;

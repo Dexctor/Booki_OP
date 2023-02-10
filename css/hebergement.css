@@ -58,16 +58,13 @@
 	padding: 10px;
 	color: black;
 	flex-direction: column;
+	flex-grow: 1;
+	justify-content: space-between;
 }
 
 .text_card_hebergement h3 {
 	font-size:1em;
 	line-height: 21px;
-}
-
-.stars {
-
-	
 }
 
 .price {
