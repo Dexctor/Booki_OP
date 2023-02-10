@@ -1,11 +1,8 @@
 /* Media Query Tablette 992px */
 
-
-/* -- Section Populaire_Hebergement & activité -- */
-
 @media screen and (max-width:992px) {
 
-	/* ---Hébérgements--- */
+	/* -------Hébérgements-------*/
 
 	body {
 		max-width: 960px;
@@ -28,7 +25,7 @@
 		width: 100%;
 	}
 
-	/* ---Populaire--- */
+	/* -------Populaire-------*/
 
 	.section_popular {
 		width: 100%;
@@ -61,7 +58,7 @@
 	}
 
 
-	/* ---Activitées--- */
+	/* -------Activitées-------*/
 
 	.card_activite>img {
 		object-fit: cover;

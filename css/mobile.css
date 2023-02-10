@@ -1,9 +1,11 @@
+/* Media Query Mobile 768px */
+
 @media screen and (max-width:768px) {
 	* {
 		max-width: 768px;
 	}
 
-	/* Header*/
+	/*-------Header-------*/
 	
 	header {
 		flex-direction: column;
@@ -21,7 +23,7 @@
 		display: flex;
 	}
 
-	/* Navigation*/
+	/*-------Navigation-------*/
 
 	.nav-links {
 		display: flex;
@@ -47,7 +49,7 @@
 		border-bottom: 3px solid #0065FC;
 	}
 
-	/* Searchbox */
+	/*-------Searchbox-------*/
 
 	.search-box{
 		display: flex;
@@ -63,7 +65,7 @@
 		width: 100%;
 	}
 
-	/* Filters */
+	/*-------Filters-------*/
 
 	.filters {
 		display: unset;
@@ -92,7 +94,7 @@
 		margin-right:1rem;
 	}
 
-	/* Section Hebergements */
+	/*-------Section Hebergements-------*/
 
 	.section_hebergement__populaire {
 		display: flex;
@@ -130,7 +132,7 @@
 		display: none;
 	}
 
-	/* Section Popular */
+	/*-------Section Popular-------*/
 
 	.wide_card_container {
 		flex-direction: column;
@@ -142,7 +144,8 @@
 		border-radius: 20px 0px 0 20px;
 	}
 	
-	/* Section Activite */
+	/*-------Section Activite-------*/
+
 	.section_activite{
 		margin-left: 1rem;
 		margin-right: 1rem;
@@ -161,7 +164,7 @@
 		padding: 15px;
 	}
 
-	/* Section Footer */
+	/*-------Section Footer-------*/
 
 	.list_container {
 		display: flex;
