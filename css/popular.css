@@ -34,6 +34,11 @@
 	gap: 40px;
 	padding: 20px;
 }
+.wide_card_container>a {
+	display: block;
+	width: 100%;
+	color: black;
+}
 
 .wide_card {
 	display: flex;
